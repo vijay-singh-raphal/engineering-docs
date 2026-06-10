@@ -159,15 +159,15 @@ Unused capacity may exist.
 brands = ["Tesla", "Skoda", "Toyota", "Suzuki"]
 ```
 
-|Operation|Time Complexity|
-|---|---|
-|Access|O(1)|
-|Append|O(1) amortized|
-|Pop End|O(1)|
-|Insert Middle|O(n)|
-|Remove Middle|O(n)|
-|Sort|O(n log n)|
-|Reverse|O(n)|
+| Operation     | Time Complexity |
+| ------------- | --------------- |
+| Access        | O(1)            |
+| Append        | O(1) amortized  |
+| Pop End       | O(1)            |
+| Insert Middle | O(n)            |
+| Remove Middle | O(n)            |
+| Sort          | O(n log n)      |
+| Reverse       | O(n)            |
 # Array problems
 #### Problem 1
 Given a binary array `nums`, return _the maximum number of consecutive_ `1`_'s in the array_.
